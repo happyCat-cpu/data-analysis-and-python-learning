@@ -15,10 +15,10 @@ cart = []
 #=选择系统=
 #==========
 def show_products():
-    print("\n","="*3,"商品列表","="*3)
+    print("\n=== 商品列表 ===")
     print("编号\t名称\t单价\t库存")
-    for i,p in enumerate(products,1):
-        print(f"{i}\t{p[0]}\t${p[1]:.2f}\t{p[2]}")
+    for i, p in enumerate(products, 1):
+        print(f"{i}\t{p[0]}\t¥{p[1]:.2f}\t{p[2]}")
 
 def add_to_cart():
     try:

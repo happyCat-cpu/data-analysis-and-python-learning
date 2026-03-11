@@ -72,7 +72,7 @@ while True:
     result = sum
 
     #保存记录
-    history.append("{:10.2f} {} {:10.2f} = {:10.2f}".format(num1,op,num2,sum))
+    history.append("{:.2f} {} {:.2f} = {:.2f}".format(num1,op,num2,sum))
 
     show = input("按h查看历史记录，按回车继续：")
     if show == 'h':

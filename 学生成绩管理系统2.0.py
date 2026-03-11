@@ -69,6 +69,7 @@ while True:
     elif choice == '5':
         name = input("输入想删除学生名字：")
         if name in students:
+            del students[name]
             print(f"学生{name}已删除")
         else:
             print(f"找不到学生{name}")
