@@ -1,0 +1,13 @@
+{
+  "next_id": 2,
+  "records": [
+    {
+      "id": 1,
+      "date": "2026-04-08",
+      "category": "测试",
+      "amount": 100.0,
+      "type": "收入",
+      "note": ""
+    }
+  ]
+}
